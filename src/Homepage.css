@@ -1,0 +1,79 @@
+.homepage-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.homepage-container h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.homepage-container ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.homepage-container li {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-container li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.homepage-container a {
+  text-decoration: none;
+  color: #2cb1ad;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.homepage-container a:hover {
+  color: #056e76;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .homepage-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .homepage-container a {
+    font-size: 1.1rem;
+  }
+
+  .homepage-container {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-container h1 {
+    font-size: 2rem;
+  }
+
+  .homepage-container a {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #c1c1c1;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #9b9b9b;  
+}
